@@ -1,0 +1,13 @@
+# Listing
+alias ll="exa -l"
+alias la="exa -la"
+
+# Divers
+alias reset="source ~/.bashrc"
+
+# Docker
+alias dcd="docker-compose down"
+alias dcu="docker-compose up -d"
+
+# Git
+alias gs="git status"
