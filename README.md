@@ -9,17 +9,6 @@ Configuration bash
 - Update your `~/.bashrc`
 
 ```bash
-# add utils tools
-export PATH=$PATH:~/.bashrc.d/bin
-
-# add utils scripts
-for file in $HOME/.bashrc.d/scripts/*.sh
-do
-    source $file
-done
-
-# add aliases
-. ~/.bashrc.d/aliases
+source ~/.bashrc.d/.bundle
 ```
-
 - reload your terminal (`exit` or `source ~/.bashrc`)
