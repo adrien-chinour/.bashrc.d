@@ -4,7 +4,7 @@ Configuration bash
 
 ## Setup
 
-- `git clone git@github.com:adrien-chinour/.bashrc.d.git ~/.bashrc.d`
+- `git clone --recurse-submodules git@github.com:adrien-chinour/.bashrc.d.git ~/.bashrc.d`
 
 - Update your `~/.bashrc`
 
