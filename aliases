@@ -1,6 +1,7 @@
 # Listing
 alias ll="exa -l"
 alias la="exa -la"
+alias l="ls"
 
 # Divers
 alias reset="source ~/.bashrc"
@@ -11,3 +12,4 @@ alias dcu="docker-compose up -d"
 
 # Git
 alias gs="git status"
+alias gl="git log --graph --decorate --oneline --all"
