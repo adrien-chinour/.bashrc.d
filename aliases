@@ -6,9 +6,14 @@ alias l="ls"
 # Divers
 alias reset="source ~/.bashrc"
 
-# Docker
+# Docker Compose
 alias dcd="docker-compose down"
 alias dcu="docker-compose up -d"
+alias dc="docker-compose"
+
+# Docker
+alias dockerc="docker container"
+alias dockeri="docker image"
 
 # Git
 alias gs="git status"
