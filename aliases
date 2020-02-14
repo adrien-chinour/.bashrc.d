@@ -5,7 +5,7 @@ alias l="ls"
 
 # Divers
 alias reset="source ~/.bashrc"
-alias ip="curl -s monip.org | sed -n 's/.*IP : \([0-9.]*\).*/\1/p' && echo"
+alias myip="curl -s monip.org | sed -n 's/.*IP : \([0-9.]*\).*/\1/p' && echo"
 
 # Docker Compose
 alias dcd="docker-compose down"
@@ -21,4 +21,4 @@ alias dkn="docker network"
 # Git
 alias gs="git status"
 alias gl="git log --graph --decorate --oneline --all"
-alias gc="git remote prune origin && git fetch -p && for branch in `git branch -vv | grep ': disparue]' | awk '{print $1}'`; do git branch -D $branch; done"
+#alias gc="git remote prune origin && git fetch -p && for branch in `git branch -vv | grep ': disparue]' | awk '{print $1}'`; do git branch -D $branch; done"

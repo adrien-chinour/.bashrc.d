@@ -13,7 +13,6 @@ done
 # Only load Liquid Prompt in interactive shells, not from a script or from scp
 [[ $- = *i* ]] && source $HOME/.bashrc.d/modules/liquidprompt/liquidprompt
 
-
 # add nvm
 export NVM_DIR="$HOME/.nvm"
 if [ ! -d $NVM_DIR ]; then
