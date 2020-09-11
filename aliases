@@ -22,3 +22,6 @@ alias dkn="docker network"
 alias gs="git status"
 alias gl="git log --graph --decorate --oneline --all"
 #alias gc="git remote prune origin && git fetch -p && for branch in `git branch -vv | grep ': disparue]' | awk '{print $1}'`; do git branch -D $branch; done"
+
+# Bat (need to install it with apt install bat)
+alias bat="batcat"
